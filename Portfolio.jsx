@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 
 export default function Portfolio() {
+  const skills = ["After Effects", "Premiere Pro", "Photoshop", "Editing"];
   return (
     <main className="min-h-screen bg-zinc-950 text-white px-4 md:px-12 py-12 font-sans">
       <section className="text-center space-y-4">
